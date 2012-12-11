@@ -1,0 +1,37 @@
+Tutorial Ruby
+
+Notas obtenidas de
+
+http://www.rubyist.net/~slagell/ruby/getstarted.html
+
+Un tutorial interesante
+
+http://www.tutorialspoint.com/ruby/ruby_overview.htm
+
+
+http://www.thelearningpoint.net/computer-science/using-the-functional-programming-paradigm-with-a-regular-programming-language-like-ruby
+
+
+Ejecución de comandos en la terminal
+
+
+ruby -e 'puts "Hola mundo"'
+
+Ejemplo 1
+
+Shebang
+
+#!/usr/bin/ruby  usa el del sistema
+#!/usr/bin/env ruby  usa el de rvm
+
+Ejemplo 2
+
+
+Tests, definición de función, condicional, recursión
+
+
+
+Ver sobre los tests
+http://en.wikibooks.org/wiki/Ruby_Programming/Unit_testing
+http://www.developerfusion.com/article/84444/unit-testing-in-ruby/
+
