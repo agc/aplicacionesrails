@@ -22,7 +22,7 @@ class TestsVarios < Test::Unit::TestCase
     assert_equal("Hola mundo", "Hola" +" mundo" )
     assert_equal(5*4*3*2*1, fact(5) )
     
-   # assert_equal(5*4*3*2*1, factorial(5) ) da error    
+   # assert_equal(5*4*3*2*1, factorial(5) ) #da error
   end
   
   def test_lambdas
