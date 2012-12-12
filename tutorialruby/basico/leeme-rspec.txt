@@ -1,0 +1,37 @@
+Rspec leeme
+
+gem install rspec
+
+se crea un directorio cadenas/spec y un directorio cadenas/lib
+
+
+en este se crea un archivo  sprec/cadena1_spec.rb
+
+con este contenenido
+
+require 'ejcadena1.rb'
+ 
+  describe "Ejemplos basicos con strings" do
+    it "debe decir 'Hola Mundo' cuando recibe el mensaje saludo() " do
+      ejemplo1 = EjCadena1.new
+      saludo = ejemplo1.saludo
+      saludo.should == "Hola mundo"
+    end
+  end
+
+en el directorio  lib se crea el archivo ejcadenas1.rb que contiene inicialmente
+
+
+class EjCadena1
+  
+  def saludo
+    "Hola mundo"
+  end
+  
+end
+
+
+El require puede ser tambien require 'ejcadena1' omitiendo la extensión rb
+
+En estos ejemplos se omite la configuracion usual de poner las definiciones en lib para permitir que la consulta sea mas agil
+
