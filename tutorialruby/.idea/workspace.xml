@@ -73,10 +73,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ejbloques1_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ejbloques1_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basico/ejbloques1_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="315" selection-end="315" vertical-scroll-proportion="0.24285714">
+            <state line="15" column="34" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1355343548000" expanded="true" signature="106:122" placeholder=" ... end" />
+                <marker date="1355343548000" expanded="true" signature="161:333" placeholder="do ... end" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ejmysql1.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ejmysql1.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="30" selection-start="313" selection-end="313" vertical-scroll-proportion="0.2935252">
               <folding />
             </state>
           </provider>
@@ -107,6 +119,7 @@
         <option value="$PROJECT_DIR$/basico/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/basico/ejcadena1_spec.rb" />
         <option value="$PROJECT_DIR$/basico/ejbloques1_spec.rb" />
+        <option value="$PROJECT_DIR$/ejmysql1.rb" />
       </list>
     </option>
   </component>
@@ -150,6 +163,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorialruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorialruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -171,7 +194,7 @@
       <recent name="$PROJECT_DIR$/basico" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.ejcadena1_spec">
+  <component name="RunManager" selected="Ruby.ejmysql1">
     <configuration default="false" name="ejemplo1" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="tutorialruby" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -264,6 +287,26 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="ejmysql1" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="tutorialruby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ejmysql1.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
@@ -334,18 +377,20 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Ruby.ejemplo1" />
       <item index="1" class="java.lang.String" itemvalue="Ruby.ejemplo2" />
       <item index="2" class="java.lang.String" itemvalue="Ruby.ejemplo3" />
       <item index="3" class="java.lang.String" itemvalue="RSpec.ejcadena1_spec" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.ejmysql1" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.ejcadena1_spec" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.ejemplo2" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.ejemplo3" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.ejemplo1" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Ruby.ejmysql1" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.ejcadena1_spec" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.ejemplo2" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.ejemplo3" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.ejemplo1" />
       </list>
     </recent_temporary>
   </component>
@@ -383,11 +428,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6703807" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6703807" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32961932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -502,7 +547,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basico/ejbloques1_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="315" selection-end="315" vertical-scroll-proportion="0.24285714">
+        <state line="15" column="34" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1355343548000" expanded="true" signature="106:122" placeholder=" ... end" />
+            <marker date="1355343548000" expanded="true" signature="161:333" placeholder="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejmysql1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="313" selection-end="313" vertical-scroll-proportion="0.2935252">
           <folding />
         </state>
       </provider>
