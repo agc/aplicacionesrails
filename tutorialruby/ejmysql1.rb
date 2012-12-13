@@ -3,16 +3,17 @@ require "mysql2"
 
 
 begin
-    con = Mysql2::Client.new(:host => "localhost", :database => 'intraweb13', :username => "usuariointraweb",:password => "19601706" )
+    cliente = Mysql2::Client.new(:host => "localhost", :database => 'intraweb13', :username => "usuariointraweb",:password => "19601706" )
+    cliente.query("select * from sec_user").each(:symbolize_keys=>true) do |fila|
+      puts "%i %s %s"%[fila[:id],fila[:username],fila[:password]   ]
 
-    puts con.get_server_info
-    rs = con.query 'SELECT VERSION()'
-    puts rs.fetch_row
+    end
+
 
 rescue Mysql2::Error => e
     puts e.errno
     puts e.error
 
 ensure
-    con.close if con
+    cliente.close if cliente
 end
