@@ -35,3 +35,8 @@ Ver sobre los tests
 http://en.wikibooks.org/wiki/Ruby_Programming/Unit_testing
 http://www.developerfusion.com/article/84444/unit-testing-in-ruby/
 
+
+Ejemplo 3
+
+Bloque  son Procs de un uso que se crean cuando se pasan a un metodo, no pueden ser guardados en variable
+
